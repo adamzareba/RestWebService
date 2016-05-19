@@ -6,4 +6,4 @@
 
 Sites:
     - http://localhost:8080/index.html
-    - http://localhost:8080/city/index.html
+    - http://localhost:8080/city/all.html
