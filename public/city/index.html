@@ -7,9 +7,10 @@
 </head>
 
 <body>
-    <div ng-controller="Hello">
-        <p>The ID is {{greeting.id}}</p>
-        <p>The content is {{greeting.content}}</p>
+    <div ng-controller="Cities">
+        <ul>
+            <li ng-repeat="city in cities">{{city.name}}: {{city.state}}</li>
+        </ul>
     </div>
 </body>
 </html>
